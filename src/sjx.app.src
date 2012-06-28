@@ -1,0 +1,6 @@
+{application, sjx,
+ [
+  {description, "SLX JMS Exchange"},
+  {vsn, "0.0.1"},
+  {applications, [kernel, stdlib]}
+]}.

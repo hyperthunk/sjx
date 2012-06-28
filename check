@@ -1,0 +1,9 @@
+#!/usr/bin/env escript
+%! -pa ebin
+%% simple escript that attempts to parse whatever expression you pass it...
+
+main([Expr]) ->
+    {ok, Tokens, _} = sjx_scanner:string(Expr),
+    Result = sjx_parser:parse(Tokens),
+    io:format("~p~n", [Result]),
+    ok.
