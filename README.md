@@ -33,7 +33,7 @@ to the project's GitHub page via the links on this page.
 
 ## License
 
-This project is distributed under the same, permissive, BSD style license as
+This project is distributed under the same, permissive, MIT license as
 [SLX][slx].
 
 ### Links
